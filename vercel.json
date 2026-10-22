@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/evals",        "destination": "https://ethskills-evals.vercel.app/evals", "permanent": false },
+    { "source": "/evals/:path*", "destination": "https://ethskills-evals.vercel.app/evals/:path*", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/l2",      "destination": "/l2s/SKILL.md" },
     { "source": "/layer2",  "destination": "/l2s/SKILL.md" },

@@ -52,7 +52,7 @@ How Ethereum evolves — EIP lifecycle, fork process, tracking upcoming changes.
 ### [Gas & Costs](https://ethskills.com/gas/SKILL.md)
 What things actually cost on Ethereum today.
 - Never quote a cost from memory. Use `cast gas-price` (prints wei, not gwei) and live ETH/USD.
-- OP-stack L2 cost adds the L1 data fee and any operator fee. Read them from GasPriceOracle; don't estimate.
+- OP-stack and Base cost adds the L1 data fee and any operator fee. Read them from GasPriceOracle; don't estimate.
 - "Ethereum is expensive" was true in 2021-2023. It's false in 2026.
 
 ### [Wallets](https://ethskills.com/wallets/SKILL.md)
@@ -77,7 +77,7 @@ ERC-8004, x402, EIP-3009, EIP-7702.
 
 ### [Tools](https://ethskills.com/tools/SKILL.md)
 Scaffold-ETH 2 (create-eth), Blockscout MCP, x402 SDKs.
-- Treat package names and versions as live data. New SE-2 app: `npx create-eth@latest`; `create-eth-app` and `create-scaffold-eth` are dead.
+- Treat package names and versions as live data. New SE-2 app: `npx create-eth@latest`; `create-eth-app` and `create-scaffold-eth` are stale, not SE-2.
 - Blockscout MCP server gives agents structured blockchain data via MCP.
 - x402: use the scoped `@x402/*` packages; unscoped `x402` and `x402-fetch` are frozen at 1.2.0.
 

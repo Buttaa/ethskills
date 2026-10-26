@@ -1,5 +1,7 @@
 {
   "redirects": [
+    { "source": "/gpt",          "destination": "https://chatgpt.com/plugins/plugins_6abf1a2052dc8191b533c58511911ca4", "permanent": false },
+    { "source": "/chatgpt",      "destination": "https://chatgpt.com/plugins/plugins_6abf1a2052dc8191b533c58511911ca4", "permanent": false },
     { "source": "/evals",        "destination": "https://ethskills-evals.vercel.app/evals", "permanent": false },
     { "source": "/evals/:path*", "destination": "https://ethskills-evals.vercel.app/evals/:path*", "permanent": false }
   ],
